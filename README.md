@@ -4,7 +4,8 @@ Trabalho desenvolvido durante a disciplina de BD
 # Sumário
 
 ### 1.COMPONENTES<br>
-Criscia de Oliveira Souza (crisciafacebook@gmail.com) 
+Criscia de Oliveira Souza (crisciafacebook@gmail.com)<br>
+Hannah Santos Lucas (hannah_slucas@outlook.com)
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
