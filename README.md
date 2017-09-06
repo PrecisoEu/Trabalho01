@@ -26,7 +26,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
+(https://drive.google.com/file/d/0BwDqCKhBD_s8TzR4em1OeUs2Sm8/view?usp=sharing)
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
