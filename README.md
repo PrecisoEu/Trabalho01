@@ -26,7 +26,7 @@ https://drive.google.com/file/d/0BwDqCKhBD_s8WWJXZlhhVE4tNHc/view?usp=sharing - 
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-(https://drive.google.com/file/d/0BwDqCKhBD_s8TzR4em1OeUs2Sm8/view?usp=sharing)
+
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
