@@ -18,8 +18,11 @@ Se for necessário cancelar o produto a pessoa terá 15 minutos para fazê-lo, c
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
+https://drive.google.com/file/d/0BwDqCKhBD_s8dmp2UzV5UmtwTVU/view?usp=sharing - Imagem <br>
 
+https://drive.google.com/file/d/0BwDqCKhBD_s8OENhZk1OMXgyQWc/view?usp=sharing - Prototipação <br>
 
+https://drive.google.com/file/d/0BwDqCKhBD_s8WWJXZlhhVE4tNHc/view?usp=sharing - Prototipação PDF <br>
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
