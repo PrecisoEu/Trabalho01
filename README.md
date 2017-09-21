@@ -26,7 +26,7 @@ https://drive.google.com/file/d/0BwDqCKhBD_s8WWJXZlhhVE4tNHc/view?usp=sharing - 
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-
+https://drive.google.com/file/d/0BwDqCKhBD_s8NGR5TnhHQUNwMWM/view?usp=sharing - Modelo Conceitual
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
@@ -35,22 +35,65 @@ https://drive.google.com/file/d/0BwDqCKhBD_s8WWJXZlhhVE4tNHc/view?usp=sharing - 
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
+   USUÁRIO:
+    Campo id_usuário: Utilizamos o tipo INT porque ele é um identificador 
     
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+   EMPRESA:
+    Campo login: Utilizamos o tipo VARCHAR pois o login é composto de certa quantidade de caracteres (o comprimento é variável).
+    Campo senha: Escolhemos o tipo INT porque a senha é composta por números.
+    Campo nome: Escolhemos o tipo VARCHAR por ser um nome (composto por caracteres).
+    Campo CNPJ: Escolhemos o tipo INT pois o CNPJ, que é o comprovante da existência da empresa, é composto por números.
+    Campo id_empressa: Utilizamos o tipo INT porque o CNPJ, que é o comprovante da existência da empresa, é dado em números.
+     
+   PESSOA:
+    Campo login: Utilizamos o tipo VARCHAR pois o login é composto de certa quantidade de caracteres (o comprimento é variável).
+    Campo senha: Escolhemos o tipo INT porque a senha é composta por números.
+    Campo nome: Escolhemos o tipo VARCHAR por ser um nome (composto por caracteres).
+    Campo id_pessoa: Utilizamos o tipo INT porque o campo é um identificador.
+     
+   PRODUTO:
+    Campo preço: Utilizamos o tipo float porque o preço pode conter números após a vírgula.
+    Campo nome: Utlizamos o tipo VARCHAR porque o nome é composto por caracteres e alguns podem conter números.
+    Campo descrição: Utilizamos o tipo VARCHAR porque é necessário escrever o que é o produto em si.
+    Campo id_produto: Escolhemos o tipo INT porque é necessário identificar o produto, e essa identificação é feita atráves de números.
+     
+   IMAGEM:
+    Campo id_imagem: Foi escolhido usar o tipo INT, pois vai ser um identificador.
+    Campo link: Usamos o tipo varchar, que pode incluir caracteres e números, nesse atributo estará a localização da imagem na internet.
+   
+   CARTÃO:
+    Campo n_cartão: Utilizamos o tipo INT porque para pagamento é necessário o número de identificação do mesmo.
+    Campo código_segurança: Utilizamos o tipo INT porque o código são os últimos três números od cartão.
+   
+   RUA/AVENIDA:
+    Campo nome_rua: Usamos o tipo VARCHAR para dar nome as ruas ou Avenidas.
+    
+   BAIRRO:
+    Campo nome_bairro: Usamos o tipo VARCHAR para dar nome aos bairros.
+    
+   CIDADE:
+    Campo nome_cidade: Usamos o tipo VARCHAR para dar nome às cidades.
+    
+   ESTADO:
+    Campo nome_estado: Usamos o tipo VARCHAR para dar nome aos estados,
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+  USUÁRIO:id_usuário		
+  IMAGEM: id_imgem, link
+  PRODUTO: id_produto, nome, preço, descrição
+  PESSOA: id_pessoa, nome, login, senha
+  PESSOA: id_empresa, nome, login, senha, CNPJ
+  RUA_AVENIDA: id_rua/avenida, número, complemento
+  BAIRRO:id_bairro, nome_bairro
+  CIDADE: id_cidade, nome_cidade
+  ESTADO: id_estaado, nome_estado
+  CARTÃO: num_cartão, cód_cartão
 
 
 ### 6	MODELO LÓGICO<br>
+    
+   https://drive.google.com/file/d/0BwDqCKhBD_s8bmFiYkpSLTJPQjg/view?usp=sharing - Modelo Lógico
+    
 ### 7	MODELO FÍSICO<br>
 
         Entrega até este ponto em (data a ser definida)
