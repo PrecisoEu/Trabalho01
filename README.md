@@ -32,47 +32,7 @@ https://drive.google.com/file/d/0BwDqCKhBD_s8NGR5TnhHQUNwMWM/view?usp=sharing - 
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-   USUÁRIO:
-    Campo id_usuário: Utilizamos o tipo INT porque ele é um identificador 
-    
-   EMPRESA:
-    Campo login: Utilizamos o tipo VARCHAR pois o login é composto de certa quantidade de caracteres (o comprimento é variável).
-    Campo senha: Escolhemos o tipo INT porque a senha é composta por números.
-    Campo nome: Escolhemos o tipo VARCHAR por ser um nome (composto por caracteres).
-    Campo CNPJ: Escolhemos o tipo INT pois o CNPJ, que é o comprovante da existência da empresa, é composto por números.
-    Campo id_empressa: Utilizamos o tipo INT porque o CNPJ, que é o comprovante da existência da empresa, é dado em números.
-     
-   PESSOA:
-    Campo login: Utilizamos o tipo VARCHAR pois o login é composto de certa quantidade de caracteres (o comprimento é variável).
-    Campo senha: Escolhemos o tipo INT porque a senha é composta por números.
-    Campo nome: Escolhemos o tipo VARCHAR por ser um nome (composto por caracteres).
-    Campo id_pessoa: Utilizamos o tipo INT porque o campo é um identificador.
-     
-   PRODUTO:
-    Campo preço: Utilizamos o tipo float porque o preço pode conter números após a vírgula.
-    Campo nome: Utlizamos o tipo VARCHAR porque o nome é composto por caracteres e alguns podem conter números.
-    Campo descrição: Utilizamos o tipo VARCHAR porque é necessário escrever o que é o produto em si.
-    Campo id_produto: Escolhemos o tipo INT porque é necessário identificar o produto, e essa identificação é feita atráves de números.
-     
-   IMAGEM:
-    Campo id_imagem: Foi escolhido usar o tipo INT, pois vai ser um identificador.
-    Campo link: Usamos o tipo varchar, que pode incluir caracteres e números, nesse atributo estará a localização da imagem na internet.
-   
-   CARTÃO:
-    Campo n_cartão: Utilizamos o tipo INT porque para pagamento é necessário o número de identificação do mesmo.
-    Campo código_segurança: Utilizamos o tipo INT porque o código são os últimos três números od cartão.
-   
-   RUA/AVENIDA:
-    Campo nome_rua: Usamos o tipo VARCHAR para dar nome as ruas ou Avenidas.
-    
-   BAIRRO:
-    Campo nome_bairro: Usamos o tipo VARCHAR para dar nome aos bairros.
-    
-   CIDADE:
-    Campo nome_cidade: Usamos o tipo VARCHAR para dar nome às cidades.
-    
-   ESTADO:
-    Campo nome_estado: Usamos o tipo VARCHAR para dar nome aos estados,
+   Não foi tomada nehuma decisão especial
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
   USUÁRIO:id_usuário		
