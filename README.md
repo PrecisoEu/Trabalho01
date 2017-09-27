@@ -93,7 +93,7 @@ https://drive.google.com/file/d/0BwDqCKhBD_s8NGR5TnhHQUNwMWM/view?usp=sharing - 
     
 ### 7	MODELO FÍSICO<br>
 
-   https://drive.google.com/file/d/0BwDqCKhBD_s8M3VvWS16dkk0c0U/view?usp=sharing
+   https://github.com/PrecisoEu/Trabalho01/blob/master/MODELO%20F%C3%8DSICO.sql
         
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
