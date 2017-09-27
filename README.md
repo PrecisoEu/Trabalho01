@@ -35,16 +35,32 @@ https://drive.google.com/file/d/0BwDqCKhBD_s8NGR5TnhHQUNwMWM/view?usp=sharing - 
    Não foi tomada nehuma decisão especial
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-  USUÁRIO:id_usuário		
-  IMAGEM: id_imgem, link
-  PRODUTO: id_produto, nome, preço, descrição
-  PESSOA: id_pessoa, nome, login, senha
-  PESSOA: id_empresa, nome, login, senha, CNPJ
-  RUA_AVENIDA: id_rua/avenida, número, complemento
-  BAIRRO:id_bairro, nome_bairro
-  CIDADE: id_cidade, nome_cidade
-  ESTADO: id_estaado, nome_estado
-  CARTÃO: num_cartão, cód_cartão
+  USUÁRIO - id_usuário: Armazena o id dos usuários;<br>	
+  IMAGEM - id_imgem: Armazena o id da imagem;<br>
+         - link: Armazena o link de onde a fot foi encontrada.<br>
+  PRODUTO - id_produto: Armazena o id do produto;<br>
+          - nome: Contém o nome do produto;<br>
+          - preço: Armazena o preço do produto;<br>
+          - descrição: Contém a descrição do produto, como ele deve ser usado e como não deve.<br>
+  PESSOA - id_pessoa: Armazena o id da pessoa;<br>
+         - nome: Armazena o nome da pessoa;<br>
+         - login: Contém o email do usúario;<br>
+         - senha: Armazena a senha do usúario.<br>
+  EMPRESA - id_empresa: Armazena o id da empresa;<br>
+          - nome: Possui o nome da empresa;<br>
+          - login: Contém o email da empresa;<br>
+          - senha: Contém a senha da empresa;<br>
+          - CNPJ: Armazena o CNPJ da empresa.<br>
+  RUA_AVENIDA - id_rua_avenida: Armazena o id da rua;<br>
+              - Nome_rua_avenida: Contém o nome da rua ou avenida;<br>
+              - número: Possui o número do local onde a pessoa/empresa se encontra;<br> 
+              - complemento: Armazena o complemento do endereço.<br>
+  BAIRRO - id_bairro: Armazena o id do bairro;<br>
+         - nome_bairro: Armazena o nome do bairro.<br>
+  CIDADE - id_cidade: Contém o id da cidade;<br>
+         - nome_cidade: Contém o nome da cidade.<br>
+  ESTADO - id_estado: Possui o id do estado;<br>
+         - nome_estado: Possui o nome do estado;<br>
 
 
 ### 6	MODELO LÓGICO<br>
