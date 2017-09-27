@@ -19,9 +19,7 @@ Se for necessário cancelar o produto a pessoa terá 15 minutos para fazê-lo, c
 
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/2017-09-18.png) 
 
-https://drive.google.com/file/d/0BwDqCKhBD_s8OENhZk1OMXgyQWc/view?usp=sharing - Prototipação <br>
-
-https://drive.google.com/file/d/0BwDqCKhBD_s8WWJXZlhhVE4tNHc/view?usp=sharing - Prototipação PDF <br>
+https://github.com/PrecisoEu/Trabalho01/blob/master/EuPreciso%20(1).pdf <br>
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
