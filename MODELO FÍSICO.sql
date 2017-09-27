@@ -1,7 +1,7 @@
 #Create database EuPreciso;
 
 Use EuPreciso;
-/*
+
 CREATE TABLE USUÁRIO(
 id_usuario INT,
 PRIMARY KEY (id_usuario)
@@ -84,7 +84,7 @@ id_rua_avenida INT,
 FOREIGN KEY(id_empresa) REFERENCES EMPRESA (id_empresa),
 FOREIGN KEY(id_rua_avenida) REFERENCES RUA_AVENIDA (id_rua_avenida)
 );
-*/
+
 CREATE TABLE Contém (
 id_rua_avenida INT,
 id_pessoa INT,
