@@ -23,7 +23,7 @@ https://github.com/PrecisoEu/Trabalho01/blob/master/EuPreciso%20(1).pdf <br>
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-https://drive.google.com/file/d/0BwDqCKhBD_s8NGR5TnhHQUNwMWM/view?usp=sharing - Modelo Conceitual
+https://github.com/PrecisoEu/Trabalho01/blob/master/ModeloConceitual.xml
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
