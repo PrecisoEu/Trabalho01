@@ -76,7 +76,7 @@ https://github.com/PrecisoEu/Trabalho01/blob/master/ModeloConceitual.xml
 
 ### 6	MODELO LÓGICO<br>
     
-   https://drive.google.com/file/d/0BwDqCKhBD_s8bmFiYkpSLTJPQjg/view?usp=sharing - Modelo Lógico
+  https://github.com/PrecisoEu/Trabalho01/blob/master/ModeloL%C3%B3gico.xml
     
 ### 7	MODELO FÍSICO<br>
 
