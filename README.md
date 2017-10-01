@@ -75,6 +75,7 @@ https://github.com/PrecisoEu/Trabalho01/blob/master/ModeloConceitual.xml
 
 
 ### 6	MODELO LÓGICO<br>
+ ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/Captura%20do%20Modelo%20L%C3%B3gico.PNG)
     
   https://github.com/PrecisoEu/Trabalho01/blob/master/ModeloL%C3%B3gico.xml
     
