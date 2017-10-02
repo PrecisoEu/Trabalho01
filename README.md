@@ -85,6 +85,8 @@ https://github.com/PrecisoEu/Trabalho01/blob/master/ModeloConceitual.xml
         
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+https://github.com/PrecisoEu/Trabalho01/blob/master/INSERT.sql
+
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a :
