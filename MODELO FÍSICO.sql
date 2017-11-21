@@ -49,7 +49,6 @@ PRIMARY KEY (id_produto)
 CREATE TABLE IMAGEM (
 link VARCHAR(200),
 id_imagem INT,
-id_produtoind INT,
 PRIMARY KEY (id_imagem)
 );
 
