@@ -38,8 +38,10 @@ https://github.com/PrecisoEu/Trabalho01/blob/master/ModeloConceitual.xml
 
 #### 5.3 DESCRIÇÃO DOS DADOS
  USUÁRIO <br> 
-  - id_usuário: Armazena o id dos usuários;<br>	
+  - tipo: especifica o tipo de usuário;<br>
+  - tipo_usuário: especifica o id para cada tipo de usuário;<br>	
  IMAGEM <br>
+  - id_produtoind: Armazena o id do produto;<br>
   - id_imgem: Armazena o id da imagem;<br>
   - link: Armazena o link de onde a fot foi encontrada.<br>
  PRODUTO <br>
@@ -47,28 +49,42 @@ https://github.com/PrecisoEu/Trabalho01/blob/master/ModeloConceitual.xml
   - nome: Contém o nome do produto;<br>
   - preço: Armazena o preço do produto;<br>
   - descrição: Contém a descrição do produto, como ele deve ser usado e como não deve.<br>
+  -id_empresaresp: Armazena o id da empresa responsável pelo produto;<br>
  PESSOA <br>
   - id_pessoa: Armazena o id da pessoa;<br>
   - nome: Armazena o nome da pessoa;<br>
   - login: Contém o email do usúario;<br>
   - senha: Armazena a senha do usúario.<br>
+  - tipo_pessoa: Armazena o id que o define; <br>
+  - idLocal_ruap: Contém o id da rua onde a pessoa está;<br>
+  - idLocal_bairrop: Contém o id do bairro onde a pessoa está;<br> 
+  - idLocal_cidadep: Contém o id da cidade onde a pessoa está;<br>
+  - idLocal_estadop: Contém o id do estado onde a pessoa está;<br>
  EMPRESA <br>
   - id_empresa: Armazena o id da empresa;<br>
   - nome: Possui o nome da empresa;<br>
   - login: Contém o email da empresa;<br>
   - senha: Contém a senha da empresa;<br>
   - CNPJ: Armazena o CNPJ da empresa.<br>
+  - tipo_empresa: Armazena o id queo define;<br>
+  - idLocal_ruae: Contém o id da rua onde a empresa está;<br>
+  - idLocal_bairroe: Contém o id do bairro onde a empresa está;<br>
+  - idLocal_cidadee: Contém o id da cidade onde a empresa está;<br> 
+  - idLocal_estadoe: Contém o id do estado onde a empresa está;<br>
  RUA_AVENIDA <br>
   - id_rua_avenida: Armazena o id da rua;<br>
   - Nome_rua_avenida: Contém o nome da rua ou avenida;<br>
   - número: Possui o número do local onde a pessoa/empresa se encontra;<br> 
   - complemento: Armazena o complemento do endereço.<br>
+  - idEsta_embar: Armazena o id do bairro onde a rua está;<br>
  BAIRRO <br>
   - id_bairro: Armazena o id do bairro;<br>
-  - nome_bairro: Armazena o nome do bairro.<br>
+  - nome_bairro: Armazena o nome do bairro;<br>
+  - idEsta_emcid: Armazena o id da cidade onde o bairro está;<br> 
  CIDADE <br>
   - id_cidade: Contém o id da cidade;<br>
-  - nome_cidade: Contém o nome da cidade.<br>
+  - nome_cidade: Contém o nome da cidade;<br>
+  - idEsta_emest: Contém o id do estado onde a cidade está;<br>
  ESTADO <br>
   - id_estado: Possui o id do estado;<br>
   - nome_estado: Possui o nome do estado;<br>
