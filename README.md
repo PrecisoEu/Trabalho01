@@ -139,14 +139,33 @@ https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela12.PNG)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela13.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela14.PNG)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela15.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela16.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela17.PNG)<br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela18.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela19.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela20.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela21.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela22.PNG)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela23.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela24.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela25.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela26.PNG)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela27.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela28.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela29.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela30.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela31.PNG)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
