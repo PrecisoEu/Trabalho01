@@ -121,14 +121,32 @@ https://github.com/PrecisoEu/Trabalho01/blob/master/INSERT.sql
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela1.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela2.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela3.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela4.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela5.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela5.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela6.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela7.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela8.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela9.PNG)<br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela10.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela11.PNG)<br>
+![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela12.PNG)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
+https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-        Entrega até este ponto em (data a ser definida)
-        
+https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
