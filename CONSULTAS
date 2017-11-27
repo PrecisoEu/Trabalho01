@@ -1,0 +1,82 @@
+use EuPreciso2;
+#9.1
+select * from usuario;
+select * from bairro;
+select * from cidade;
+select * from empresa;
+select * from estado;
+select * from imagem;
+select * from pessoa;
+select * from produto;
+select * from rua_avenida;
+
+#9.2
+select * from pessoa
+where senha < 2280000;
+
+select * from empresa
+where CNPJ > 600000 and CNPJ < 3000000;
+
+select * from cidade
+where id_cidade = 4;
+
+#9.3
+select count(senha) as SenhaMaior4Menor8 from pessoa
+where senha > 4 or senha < 8;
+
+select nome, preço+(2.00) as PreçoTotal from produto
+where preço >= 12 and preço <=24; 
+
+#9.4
+select * from empresa 
+where nome like 'R%'; 
+
+select * from pessoa
+where nome like '%Criscia%' or nome like '%Hannah%';
+
+select nome, preço from produto
+where preço like '%17%'; 
+
+#9.5
+update cidade set Nome_cidade = 'Vila Velha' where id_cidade = 1;
+update bairro set Nome_bairro = 'Bairro Jacaraípe' where id_bairro = 15;
+update pessoa set nome = 'Marcela Martins' where id_pessoa = 2;
+delete from bairro where id_bairro = 6;
+delete from produto where id_produto = 57;
+delete from empresa where id_empresa = 4;
+
+#9.6
+select tipo, sum(tipo_usuario) as Quant_Pessoas from usuario
+inner join pessoa
+on(usuario.tipo_usuario = pessoa.tipo_pessoa);
+
+select tipo, sum(tipo_usuario) as Quant_Empresas from usuario
+inner join empresa
+on(usuario.tipo_usuario = empresa.tipo_empresa);
+
+Alter table produto change nome nomep VARCHAR(50);
+
+select nomep as NomeProduto, id_empresaresp as IdEmpresaResp from produto
+inner join empresa
+on(produto.id_empresaresp = empresa.id_empresa);
+
+select nomep as NomeProduto, id_imagemA as IdImagemPertencente from produto
+inner join imagem
+on(produto.id_imagemA = imagem.id_imagem);
+
+#9.7
+select * from produto
+group by id_empresaresp;	
+
+select * from pessoa
+group by idLocal_ruap;	
+
+select nomep, count(id_produto) as Quantidade from produto
+group by nomep;
+
+select nomep, sum(preço) as SomaPreco from produto
+where(preço > 10)
+group by nomep;
+
+select * from empresa
+group by idLocal_cidadee;	
