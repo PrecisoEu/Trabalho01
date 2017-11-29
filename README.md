@@ -122,49 +122,103 @@ https://github.com/PrecisoEu/Trabalho01/blob/master/INSERT.sql
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+select * from usuario;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela1.PNG)<br>
+select * from rua_avenida;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela2.PNG)<br>
+select * from bairro;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela3.PNG)<br>
+select * from cidade;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela4.PNG)<br>
+select * from empresa;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela5.PNG)<br>
-![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela5.PNG)<br>
+select * from estado;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela6.PNG)<br>
+select * from imagem;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela7.PNG)<br>
+select * from pessoa;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela8.PNG)<br>
+select * from produto;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela9.PNG)<br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+select * from pessoa<br>
+where senha < 2280000;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela10.PNG)<br>
+select * from empresa<br>
+where CNPJ > 600000 and CNPJ < 3000000;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela11.PNG)<br>
+select * from cidade<br>
+where id_cidade = 4;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela12.PNG)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+select count(senha) as SenhaMaior4Menor8 from pessoa<br>
+where senha > 4 or senha < 8;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela13.PNG)<br>
+select nome, preço+(2.00) as PreçoTotal from produto<br>
+where preço >= 12 and preço <=24;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela14.PNG)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+select * from empresa<br>
+where nome like 'R%';<br>  
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela15.PNG)<br>
+select * from pessoa<br>
+where nome like '%Criscia%' or nome like '%Hannah%';<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela16.PNG)<br>
+select nome, preço from produto<br>
+where preço like '%17%';<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela17.PNG)<br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+update cidade set Nome_cidade = 'Vila Velha' where id_cidade = 1;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela18.PNG)<br>
+update bairro set Nome_bairro = 'Bairro Jacaraípe' where id_bairro = 15;<br>
+delete from bairro where id_bairro = 6;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela19.PNG)<br>
+delete from empresa where id_empresa = 4;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela20.PNG)<br>
+update pessoa set nome = 'Marcela Martins' where id_pessoa = 2;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela21.PNG)<br>
+delete from produto where id_produto = 57;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela22.PNG)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+select tipo, sum(tipo_usuario) as Quant_Pessoas from usuario<br>
+inner join pessoa<br>
+on(usuario.tipo_usuario = pessoa.tipo_pessoa);<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela23.PNG)<br>
+select tipo, sum(tipo_usuario) as Quant_Empresas from usuario<br>
+inner join empresa<br>
+on(usuario.tipo_usuario = empresa.tipo_empresa);<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela24.PNG)<br>
+Alter table produto change nome nomep VARCHAR(50);<br>
+select nomep as NomeProduto, id_empresaresp as IdEmpresaResp from produto<br>
+inner join empresa<br>
+on(produto.id_empresaresp = empresa.id_empresa);<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela25.PNG)<br>
+select nomep as NomeProduto, id_imagemA as IdImagemPertencente from produto<br>
+inner join imagem<br>
+on(produto.id_imagemA = imagem.id_imagem);<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela26.PNG)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 https://github.com/PrecisoEu/Trabalho01/blob/master/CONSULTAS<br>
+select * from produto<br>
+group by id_empresaresp;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela27.PNG)<br>
+select * from pessoa<br>
+group by idLocal_ruap;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela28.PNG)<br>
+select nomep, count(id_produto) as Quantidade from produto<br>
+group by nomep;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela29.PNG)<br>
+select nomep, sum(preço) as SomaPreco from produto<br>
+where(preço > 10)<br>
+group by nomep;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela30.PNG)<br>
+select * from empresa<br>
+group by idLocal_cidadee;<br>
 ![Alt text](https://github.com/PrecisoEu/Trabalho01/blob/master/CapturaTabela31.PNG)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
